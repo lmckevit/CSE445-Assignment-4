@@ -10,7 +10,7 @@ elementFormDefault="qualified" attributeFormDefault="unqualified">
     <xsd:complexType name="HotelInfo">
 <xsd:sequence>
 <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-<xsd:element name="Phone" type="PhoneType" minOccurs="1"/>
+<xsd:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="unbounded"/>
 <xsd:element name="Address" type="AddressDetails" minOccurs="1" maxOccurs="1"/>
 <xsd:element name="Rating" type=" xsd:string" use="optional"/>
 </xsd:sequence>

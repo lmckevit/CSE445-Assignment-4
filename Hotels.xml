@@ -1,3 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NewDataSet>
-    <Table>
+<Hotels>
+<Hotel>
+<Name>Westin</Name>
+<Phone>480-968-8885</Phone>
+<Phone>800-937-8461</Phone>
+<Address>
+    <Number>11</Number>
+    <Street>E. 7th St</Street>
+    <City>Tempe</City>
+    <State>AZ</State>
+    <Zip>85281</Zip>
+    <NearestAirport>Sky Harbor</NearestAirport>
+</Address>
+<Rating>4.2</Rating>
+</Hotel>
+<Hotel>
+<Name>Hilton Phoenix Airport</Name>
+<Phone>480-894-1600</Phone>
+<Address>
+    <Number>2435</Number>
+    <Street>S. 47th St</Street>
+    <City>Phoenix</City>
+    <State>AZ</State>
+    <Zip>85034</Zip>
+    <NearestAirport>Sky Harbor</NearestAirport>
+</Address>
+<Rating>4.3</Rating>
+</Hotel>
+<Hotel>
+<Name>Country Inn and Suites by Radisson</Name>
+<Phone>480-306-4343</Phone>
+<Address>
+    <Number>4702</Number>
+    <Street>E. University Dr</Street>
+    <City>Phoenix</City>
+    <State>AZ</State>
+    <Zip>85034</Zip>
+    <NearestAirport>Sky Harbor</NearestAirport>
+</Address>
+<Rating>3.8</Rating>
+</Hotel>
+<Hotel>
+<Name>Crowne Plaza Phoenix Airport</Name>
+<Phone>602-273-7778</Phone>
+<Address>
+    <Number>4300</Number>
+    <Street>E. Washington St</Street>
+    <City>Phoenix</City>
+    <State>AZ</State>
+    <Zip>85034</Zip>
+    <NearestAirport>Sky Harbor</NearestAirport>
+</Address>
+<Rating>4.0</Rating>
+</Hotel>
+<Hotel>
+<Name>GreenTree Inn and Suites Phoenix Sky Harbor</Name>
+<Phone>480-894-1600</Phone>
+<Address>
+    <Number>4234</Number>
+    <Street>S. 48th St</Street>
+    <City>Phoenix</City>
+    <State>AZ</State>
+    <Zip>85040</Zip>
+    <NearestAirport>Sky Harbor</NearestAirport>
+</Address>
+<Rating>3.8</Rating>
+</Hotel>
+<Hotel>
+<Name>Holiday Inn and Suites Phoenix Airport</Name>
+<Phone>480-543-1700</Phone>
+<Address>
+    <Number>3220</Number>
+    <Street>S. 48th St</Street>
+    <City>Phoenix</City>
+    <State>AZ</State>
+    <Zip>85040</Zip>
+    <NearestAirport>Sky Harbor</NearestAirport>
+</Address>
+<Rating>4.0</Rating>
+</Hotel>
+<Hotel>
+<Name>Aloft Phoenix Airport</Name>
+<Phone>602-275-6300</Phone>
+<Address>
+    <Number>4450</Number>
+    <Street>E. Washington St</Street>
+    <City>Phoenix</City>
+    <State>AZ</State>
+    <Zip>85034</Zip>
+    <NearestAirport>Sky Harbor</NearestAirport>
+</Address>
+<Rating>4.2</Rating>
+</Hotel>
+<Hotel>
+<Name>La Quinta Inn and Suites by Wyndham</Name>
+<Phone>602-834-7302</Phone>
+<Address>
+    <Number>4929</Number>
+    <Street>W. McDowell Rd</Street>
+    <City>Phoenix</City>
+    <State>AZ</State>
+    <Zip>85035</Zip>
+    <NearestAirport>Mesa Gateway</NearestAirport>
+</Address>
+<Rating>4.0</Rating>
+</Hotel>
+<Hotel>
+<Name>Courtyard by Marriott Phoenix Mesa Gateway Airport</Name>
+<Phone>480-351-7088</Phone>
+<Address>
+    <Number>6907</Number>
+    <Street>E. Ray Rd</Street>
+    <City>Mesa</City>
+    <State>AZ</State>
+    <Zip>85212</Zip>
+    <NearestAirport>Mesa Gateway</NearestAirport>
+</Address>
+<Rating>4.4</Rating>
+</Hotel>
+<Hotel>
+<Name>Holton Garden Inn Flagstaff</Name>
+<Phone>928-226-8888</Phone>
+<Address>
+    <Number>350</Number>
+    <Street>W. Forest Meadows St</Street>
+    <City>Flagstaff</City>
+    <State>AZ</State>
+    <Zip>86001</Zip>
+    <NearestAirport>Flagstaff Pulliam Airport</NearestAirport>
+</Address>
+<Rating>4.3</Rating>
+</Hotel>
+<Hotel>
+<Name>WoodSpring Suites Tucson-South</Name>
+<Phone>520-829-5720</Phone>
+<Address>
+    <Number>1420</Number>
+    <Street>E. Tucson Marketplace Blvd</Street>
+    <City>Tucson</City>
+    <State>AZ</State>
+    <Zip>85713</Zip>
+    <NearestAirport>Tucson International Airport</NearestAirport>
+</Address>
+<Rating>4.0</Rating>
+</Hotel>
