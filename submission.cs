@@ -3,6 +3,8 @@ using System.Xml.Schema;
 using System.Xml;
 using Newtonsoft.Json;
 using System.IO;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 
 
@@ -40,15 +42,22 @@ namespace ConsoleApp1
         // Q2.1
         public static string Verification(string xmlUrl, string xsdUrl)
         {
+            string result = "";
+            bool err = false;
 
-
+            // XmlDocument xml = new XmlDocument();
+            // xml.Load(xmlUrl);
+            // xml.Validate();
+            return result;
             //return "No Error" if XML is valid. Otherwise, return the desired exception message.
         }
 
         public static string Xml2Json(string xmlUrl)
         {
-            
-
+            string jsonText;
+            XmlDocument xml = new XmlDocument();
+            xml.Load(xmlUrl);
+            JsonEncodedText = JsonConverter.SerializeXmlNode(xml, Newtonsoft.Json.Formatting.Indented);
             // The returned jsonText needs to be de-serializable by Newtonsoft.Json package. (JsonConvert.DeserializeXmlNode(jsonText))
             return jsonText;
 
