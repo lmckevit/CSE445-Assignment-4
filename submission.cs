@@ -21,9 +21,9 @@ namespace ConsoleApp1
 
     public class Program
     {
-        public static string xmlURL = "https://github.com/lmckevit/CSE445-Assignment-4/blob/main/Hotels.xml";
-        public static string xmlErrorURL = "https://github.com/lmckevit/CSE445-Assignment-4/blob/main/HotelsErrors.xml";
-        public static string xsdURL = "https://github.com/lmckevit/CSE445-Assignment-4/blob/main/Hotels.xsd";
+        public static string xmlURL = "https://raw.githubusercontent.com/lmckevit/CSE445-Assignment-4/refs/heads/main/Hotels.xml";
+        public static string xmlErrorURL = "https://raw.githubusercontent.com/lmckevit/CSE445-Assignment-4/refs/heads/main/HotelsErrors.xml";
+        public static string xsdURL = "https://raw.githubusercontent.com/lmckevit/CSE445-Assignment-4/refs/heads/main/Hotels.xsd";
 
         public static void Main(string[] args)
         {
