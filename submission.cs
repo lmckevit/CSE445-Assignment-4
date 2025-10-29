@@ -5,6 +5,7 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.ServiceModel.Dispatcher;
 
 
 
@@ -57,7 +58,7 @@ namespace ConsoleApp1
             string jsonText;
             XmlDocument xml = new XmlDocument();
             xml.Load(xmlUrl);
-            JsonEncodedText = JsonConverter.SerializeXmlNode(xml, Newtonsoft.Json.Formatting.Indented);
+            jsonText = JsonConvert.SerializeXmlNode(xml, Newtonsoft.Json.Formatting.Indented);
             // The returned jsonText needs to be de-serializable by Newtonsoft.Json package. (JsonConvert.DeserializeXmlNode(jsonText))
             return jsonText;
 
