@@ -12,7 +12,7 @@ elementFormDefault="qualified" attributeFormDefault="unqualified">
 <xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1"/>
 <xs:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="unbounded"/>
 <xs:element name="Address" type="AddressDetails" minOccurs="1" maxOccurs="1"/>
-<xs:attribute name="Rating" type=" xs:string" use="optional"/>
+<xs:attribute name="Rating" type="xs:string" use="optional"/>
 </xs:sequence>
 </xs:complexType>
 <xs:simpleType name="PhoneType">
@@ -29,4 +29,4 @@ elementFormDefault="qualified" attributeFormDefault="unqualified">
 <xs:element name="Zip" type="xs:positiveInteger" minOccurs="1" maxOccurs="1"/>
 </xs:sequence>
 <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
-</complexType>
+</xs:complexType>
